@@ -6,14 +6,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-
 import org.apache.pdfbox.cos.COSDocument;
 import org.apache.pdfbox.io.RandomAccessRead;
 import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
-import org.openqa.selenium.Alert;
+//import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 //import org.apache.pdfbox.*;
 //import org.openqa.selenium.By;
@@ -28,14 +26,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass*/
 import org.testng.annotations.Test;
 //import org.testng.asserts.*;
-
-
-
-
-
-
-
-
 
 import com.guru99.DataRepository.BrowserFactory;
 import com.guru99.utility.Constants;

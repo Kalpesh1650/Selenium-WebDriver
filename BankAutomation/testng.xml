@@ -1,20 +1,9 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="RegressionTestSuite" verbose="1" >
-    
-   <listeners>
-  <!-- <listener class-name="com.guru99.Reports.CustomHTMLReports" /> -->  
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  </listeners>
-  
-  <test name="Add New Customer" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
     <classes>
-       <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer">
-        <methods>
-              <include name="add_New_Customer" />
-                  
-          </methods>
-       </class>
+      <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer"/>
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

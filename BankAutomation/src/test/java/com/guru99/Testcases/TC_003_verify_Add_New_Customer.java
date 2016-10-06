@@ -2,6 +2,7 @@ package com.guru99.Testcases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -16,6 +17,8 @@ public class TC_003_verify_Add_New_Customer {
 	
 	TS_001_Verify_Login_Credentials user1 = new TS_001_Verify_Login_Credentials();
 	private WebDriver driver;
+	private Alert emailID_exists;
+	private String registration_Status_msg = null;
 	@Test
 	public void add_New_Customer() throws InterruptedException, IOException
 	{
@@ -53,23 +56,24 @@ public class TC_003_verify_Add_New_Customer {
 		
 		Submit_Btn(driver).click();		
 		
-		
-		
-		
-		
-		String msg = registration_Sccessful_msg(driver).getText();
-		
-		System.out.println(msg);
-		
-		if(msg.equalsIgnoreCase("Customer Registered Successfully!!!"))
+		//If email id is already present then alert will generate
+		emailID_exists = driver.switchTo().alert();
+			//System.out.println(emailID_exists.getText());
+		if(emailID_exists.getText().equalsIgnoreCase("Email Address Already Exist !!"))
 		{
-			System.out.println("Registration Successful");
+			emailID_exists.accept();
+			registration_Status_msg = "Registration Unsuccessful : Email Id Already Exists";
+			System.out.println(registration_Status_msg);
 		}
 		else
 		{
-			System.out.println("Registration not successful");
-		}
-			
+			registration_Status_msg = registration_Sccessful_msg(driver).getText();
+			if(registration_Status_msg.equalsIgnoreCase("Customer Registered Successfully!!!"))
+			System.out.println(registration_Status_msg);
+     	 }
+		
+		
+						
 		TearDownDrivers.tear_down(driver);
 		
 		

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17723" started-at="2016-10-06T13:02:56Z" finished-at="2016-10-06T13:03:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17723" started-at="2016-10-06T13:02:56Z" finished-at="2016-10-06T13:03:14Z">
+      <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer">
+        <test-method status="PASS" signature="add_New_Customer()[pri:0, instance:com.guru99.Testcases.TC_003_verify_Add_New_Customer@19963d8]" name="add_New_Customer" duration-ms="17702" started-at="2016-10-06T18:32:56Z" finished-at="2016-10-06T18:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_New_Customer -->
+      </class> <!-- com.guru99.Testcases.TC_003_verify_Add_New_Customer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

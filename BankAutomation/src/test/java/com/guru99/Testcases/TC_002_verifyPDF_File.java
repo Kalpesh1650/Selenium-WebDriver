@@ -41,7 +41,7 @@ public class TC_002_verifyPDF_File {
 		ie_driver = BrowserFactory.startBrowser("chrome",Constants.URl_PDF);
 		ie_driver.manage().window().maximize();
 		//driver.get("http://www.princexml.com/samples/");
-		WebDriverWait wait = new WebDriverWait(ie_driver, 10);
+		WebDriverWait wait = new WebDriverWait(ie_driver, 3);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='SQL Tutorial']")));
 	
 		PDF_Page.pdf_links(ie_driver).click();

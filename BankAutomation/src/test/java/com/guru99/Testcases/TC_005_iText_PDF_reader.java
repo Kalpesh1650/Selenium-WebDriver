@@ -28,7 +28,7 @@ public class TC_005_iText_PDF_reader {
 		//PdfReader reader = new PdfReader("E:/Education/Testing/Automation Testing/Selenium/Maven tutorials/maven_tutorial.pdf");
 		PdfReader reader = new PdfReader(new URL("https://www.tutorialspoint.com/sql/pdf/index.pdf").openStream());
         System.out.println("This PDF has "+reader.getNumberOfPages()+" pages.");
-        String page = PdfTextExtractor.getTextFromPage(reader, 1);
+        String page = PdfTextExtractor.getTextFromPage(reader, 2);
         System.out.println("Page Content:\n\n"+page+"\n\n");
         System.out.println("Is this document tampered: "+reader.isTampered());
         System.out.println("Is this document encrypted: "+reader.isEncrypted());

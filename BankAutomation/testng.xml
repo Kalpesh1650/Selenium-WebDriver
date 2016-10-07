@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer"/>
+    <!--   <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer"/>  -->
+      <class name="com.guru99.Testcases.TC_002_verifyPDF_File"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

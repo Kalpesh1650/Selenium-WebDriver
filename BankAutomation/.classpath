@@ -28,11 +28,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/selenium-2.41.0/selenium-java-2.41.0.jar"/>
 	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/selenium-2.41.0/selenium-java-2.41.0-srcs.jar"/>
 	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/selenium-2.41.0/libs/apache-mime4j-0.6.jar"/>
@@ -83,5 +78,6 @@
 	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/ReportNG/reportng-1.1.4/reportng-1.1.4/velocity-dep-1.4.jar"/>
 	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/Apache PDF Box/pdfbox-2.0.3.jar"/>
 	<classpathentry kind="lib" path="D:/Languages/Selenium/selenium-2.41.0/libs/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="E:/Education/Testing/Automation Testing/Selenium/Apache PDF Box/fontbox-1.8.5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

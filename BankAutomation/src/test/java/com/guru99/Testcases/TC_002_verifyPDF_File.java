@@ -18,37 +18,23 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass*/
 import org.testng.annotations.Test;
 //import org.testng.asserts.*;
+import com.itextpdf.text.pdf.PdfReader;
+import com.itextpdf.text.pdf.parser.PdfTextExtractor;
 
 
 import com.guru99.DataRepository.BrowserFactory;
-import com.guru99.utility.Constants;
+//import com.guru99.utility.Constants;
 import com.guru99.Wrapup.*;
 import com.guru99.ObjectRepository.*;
-import com.itextpdf.text.pdf.PdfReader;
-import com.itextpdf.text.pdf.parser.PdfTextExtractor;
+
 
 public class TC_002_verifyPDF_File {
 	
 	WebDriver ie_driver;
 	
 	
-	/**
-	 * To verify PDF content in the pdf document
-	 */
 	
-	public void testVerifyPDFTextInBrowser() {
-		
-		ie_driver = BrowserFactory.startBrowser("chrome",Constants.URl_PDF);
-		ie_driver.manage().window().maximize();
-		//driver.get("http://www.princexml.com/samples/");
-		WebDriverWait wait = new WebDriverWait(ie_driver, 3);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='SQL Tutorial']")));
 	
-		PDF_Page.pdf_links(ie_driver).click();
-		//Assert.assertTrue(verifyPDFContent(ie_driver.getCurrentUrl(), "This tutorial will give you quick start with SQL"));
-		
-		TearDownDrivers.tear_down(ie_driver);
-	}
 
 	/**
 	 * To verify pdf in the URL 
@@ -64,7 +50,7 @@ public class TC_002_verifyPDF_File {
 		
 		//String parent_window_handle = ie_driver.getWindowHandle();
 		//driver.get("http://www.princexml.com/samples/");
-		WebDriverWait wait = new WebDriverWait(ie_driver, 3);
+		WebDriverWait wait = new WebDriverWait(ie_driver, 6);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='SQL Tutorial']")));
 		
 		

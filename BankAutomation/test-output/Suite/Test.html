@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 07 10:41:06 IST 2016</td>
+<td>Started on:</td><td>Mon Oct 17 12:09:11 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1654 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (33 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,81 +67,18 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.guru99.Testcases.TC_004_PDF_Verify.verify_PDF_Content()'><b>verify_PDF_Content</b><br>Test class: com.guru99.Testcases.TC_004_PDF_Verify</td>
-<td><div><pre>java.lang.NoSuchMethodError: org.apache.fontbox.afm.AFMParser.parse(Z)Lorg/apache/fontbox/afm/FontMetrics;
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.addAFM(Standard14Fonts.java:118)
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.addAFM(Standard14Fonts.java:97)
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.&lt;clinit&gt;(Standard14Fonts.java:50)
-	at org.apache.pdfbox.pdmodel.font.PDFont.&lt;init&gt;(PDFont.java:112)
-	at org.apache.pdfbox.pdmodel.font.PDType0Font.&lt;init&gt;(PDType0Font.java:119)
-	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(PDFontFactory.java:83)
-	at org.apache.pdfbox.pdmodel.PDResources.getFont(PDResources.java:143)
-	at org.apache.pdfbox.contentstream.operator.text.SetFontAndSize.process(SetFontAndSize.java:60)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:815)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:472)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:446)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:149)
-	at org.apache.pdfbox.text.LegacyPDFStreamEngine.processPage(LegacyPDFStreamEngine.java:139)
-	at org.apache.pdfbox.text.PDFTextStripper.processPage(PDFTextStripper.java:391)
-	at org.apache.pdfbox.text.PDFTextStripper.processPages(PDFTextStripper.java:319)
-	at org.apache.pdfbox.text.PDFTextStripper.writeText(PDFTextStripper.java:266)
-	at org.apache.pdfbox.text.PDFTextStripper.getText(PDFTextStripper.java:227)
-	at com.guru99.Testcases.TC_004_PDF_Verify.verify_PDF_Content(TC_004_PDF_Verify.java:37)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9831641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace9831641'><pre>java.lang.NoSuchMethodError: org.apache.fontbox.afm.AFMParser.parse(Z)Lorg/apache/fontbox/afm/FontMetrics;
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.addAFM(Standard14Fonts.java:118)
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.addAFM(Standard14Fonts.java:97)
-	at org.apache.pdfbox.pdmodel.font.Standard14Fonts.&lt;clinit&gt;(Standard14Fonts.java:50)
-	at org.apache.pdfbox.pdmodel.font.PDFont.&lt;init&gt;(PDFont.java:112)
-	at org.apache.pdfbox.pdmodel.font.PDType0Font.&lt;init&gt;(PDType0Font.java:119)
-	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(PDFontFactory.java:83)
-	at org.apache.pdfbox.pdmodel.PDResources.getFont(PDResources.java:143)
-	at org.apache.pdfbox.contentstream.operator.text.SetFontAndSize.process(SetFontAndSize.java:60)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:815)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:472)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:446)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:149)
-	at org.apache.pdfbox.text.LegacyPDFStreamEngine.processPage(LegacyPDFStreamEngine.java:139)
-	at org.apache.pdfbox.text.PDFTextStripper.processPage(PDFTextStripper.java:391)
-	at org.apache.pdfbox.text.PDFTextStripper.processPages(PDFTextStripper.java:319)
-	at org.apache.pdfbox.text.PDFTextStripper.writeText(PDFTextStripper.java:266)
-	at org.apache.pdfbox.text.PDFTextStripper.getText(PDFTextStripper.java:227)
-	at com.guru99.Testcases.TC_004_PDF_Verify.verify_PDF_Content(TC_004_PDF_Verify.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-</pre></div></td>
-<td>1</td>
-<td>com.guru99.Testcases.TC_004_PDF_Verify@153f17c</td></tr>
+<td title='com.guru99.Testcases.MavenBuild.DisplayIt()'><b>DisplayIt</b><br>Test class: com.guru99.Testcases.MavenBuild</td>
+<td></td>
+<td>0</td>
+<td>com.guru99.Testcases.MavenBuild@100df86</td></tr>
 </table><p>
 </body>
 </html>

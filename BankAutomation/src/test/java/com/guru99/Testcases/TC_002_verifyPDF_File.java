@@ -17,15 +17,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /*import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass*/
 import org.testng.annotations.Test;
+
+import com.guru99.DataRepository.BrowserFactory;
+import com.guru99.ObjectRepository.PDF_Page;
+//import com.guru99.utility.Constants;
+import com.guru99.Wrapup.TearDownDrivers;
 //import org.testng.asserts.*;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.parser.PdfTextExtractor;
-
-
-import com.guru99.DataRepository.BrowserFactory;
-//import com.guru99.utility.Constants;
-import com.guru99.Wrapup.*;
-import com.guru99.ObjectRepository.*;
 
 
 public class TC_002_verifyPDF_File {

@@ -5,11 +5,11 @@ import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
-import com.guru99.DataRepository.BrowserFactory;
-import com.guru99.Wrapup.TearDownDrivers;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.parser.PdfTextExtractor;
+import com.guru99.DataRepository.BrowserFactory;
+import com.guru99.Wrapup.TearDownDrivers;
+
 
 public class TC_005_iText_PDF_reader {
 	

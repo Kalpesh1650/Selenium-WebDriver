@@ -10,5 +10,9 @@ public class Constants {
 	
 	public static final String URl_PDF = "http://www.tutorialspoint.com/sql/";
 	
+	public static final String FILE_UPLOAD_URL = "https://uploadfiles.io/";
+	
+	public static final String FILE_DOWNLOAD_URL = "http://messenger.yahoo.com/";
+	
 
 }

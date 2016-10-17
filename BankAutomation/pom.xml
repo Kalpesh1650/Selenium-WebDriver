@@ -80,18 +80,16 @@ xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd" >
 			</plugin>
 			<!-- Compiler plugin configures the java version to be usedfor compiling 
 				the code -->
-			<plugin>
+			<!-- <plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
   
-  
-  
-  
+     
 </project>

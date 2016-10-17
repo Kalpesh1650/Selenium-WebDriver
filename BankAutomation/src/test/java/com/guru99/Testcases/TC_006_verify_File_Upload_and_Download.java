@@ -26,6 +26,7 @@ public class TC_006_verify_File_Upload_and_Download {
 		
 		FileUploadPage.Select_file_link(chrome_driver).click();
 		
+		
 		//FileUploadPage.Click_here_link(chrome_driver).click();
 		
 		/*Set<String> windows_list = chrome_driver.getWindowHandles();

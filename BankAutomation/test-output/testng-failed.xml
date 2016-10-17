@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru99.Testcases.TC_005_iText_PDF_reader">
+      <class name="com.guru99.Testcases.TC_007_verify_File_Download">
         <methods>
-          <include name="read_PDF"/>
+          <include name="verify_Download"/>
         </methods>
-      </class> <!-- com.guru99.Testcases.TC_005_iText_PDF_reader -->
+      </class> <!-- com.guru99.Testcases.TC_007_verify_File_Download -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -19,12 +19,14 @@ public class RegularExpressions {
 		while(i<2)
 		{
 			 input_Strins[i]= scn.next();
-			 System.out.println(input_Strins[i]);
+			// System.out.println(input_Strins[i]);
 		 i++;
 		}
 		
 		Pattern p = Pattern.compile(input_Strins[0]);
 		Matcher m = p.matcher(input_Strins[1]);
+		
+		
 		
 		while(m.find())
 		{

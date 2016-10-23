@@ -24,7 +24,7 @@ public class TC_001_Verify_Login_Credentials {
 	WebDriver ie_driver=null;
 	TestData user_credentials = new TestData();
 	
-	@Test(priority=0)
+	
 	public void check_valid_login() throws IOException
 	{
 		
@@ -53,16 +53,17 @@ public class TC_001_Verify_Login_Credentials {
 			
 	}
 	
-	@Test(priority=1)
+	
 	public void WindowsHandleTest()
 	{
 		System.out.println(chrome_driver.getWindowHandle());
 	}
 	
-	@Test(priority=2)
+	@Test(priority=0)
+	@Listeners(value=ITestReports.class)
 	public void OpenNewTab() throws InterruptedException, AWTException
 	{
-		ie_driver = BrowserFactory.startBrowser("ie",Constants.URL);
+		ie_driver = BrowserFactory.startBrowser("chrome",Constants.URL);
 		Robot robot = new Robot();
 	    robot.keyPress(KeyEvent.VK_CONTROL);
 	    robot.keyPress(KeyEvent.VK_T);

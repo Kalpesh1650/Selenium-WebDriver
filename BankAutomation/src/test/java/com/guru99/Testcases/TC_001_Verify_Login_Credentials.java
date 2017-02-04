@@ -5,9 +5,11 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 
+
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Listeners;
 //import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
@@ -16,8 +18,9 @@ import com.guru99.DataRepository.TestData;
 import com.guru99.ObjectRepository.LoginPage;
 import com.guru99.Wrapup.TearDownDrivers;
 import com.guru99.utility.*;
+import com.guru99.Reports.*;
 
-
+@Listeners(value=ITestReports.class)
 public class TC_001_Verify_Login_Credentials {
 	
 	WebDriver chrome_driver=null;
@@ -59,15 +62,17 @@ public class TC_001_Verify_Login_Credentials {
 		System.out.println(chrome_driver.getWindowHandle());
 	}
 	
+	
 	@Test(priority=0)
-	@Listeners(value=ITestReports.class)
 	public void OpenNewTab() throws InterruptedException, AWTException
 	{
 		ie_driver = BrowserFactory.startBrowser("chrome",Constants.URL);
 		Robot robot = new Robot();
 	    robot.keyPress(KeyEvent.VK_CONTROL);
 	    robot.keyPress(KeyEvent.VK_T);
-		Thread.sleep(5000);
+	    
+	    TearDownDrivers.tear_down(chrome_driver);
+		//Thread.sleep(5000);
 	}
 	
 	//teardown code

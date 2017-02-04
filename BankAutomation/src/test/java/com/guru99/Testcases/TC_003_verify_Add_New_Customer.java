@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.guru99.Testcases.TS_001_Verify_Login_Credentials;
+//import com.guru99.Testcases.TS_001_Verify_Login_Credentials;
 import com.guru99.Wrapup.TearDownDrivers;
 
 import static com.guru99.ObjectRepository.NewCustomerPage.*;
@@ -15,7 +15,7 @@ import static com.guru99.ObjectRepository.NewCustomerPage.*;
 public class TC_003_verify_Add_New_Customer {
 	
 	
-	TS_001_Verify_Login_Credentials user1 = new TS_001_Verify_Login_Credentials();
+	//TS_001_Verify_Login_Credentials user1 = new TS_001_Verify_Login_Credentials();
 	private WebDriver driver;
 	private Alert emailID_exists;
 	private String registration_Status_msg = null;
@@ -24,7 +24,7 @@ public class TC_003_verify_Add_New_Customer {
 	{
 		
 		//Login to the application
-		driver = user1.checkValidUser();
+		//driver = user1.checkValidUser();
 		
 		//Fill customer details form
 		System.out.println("Login Sucessful");

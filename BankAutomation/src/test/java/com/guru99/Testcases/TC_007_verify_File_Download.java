@@ -10,7 +10,7 @@ public class TC_007_verify_File_Download {
 	private WebDriver chrome_driver;
 
 	@Test
-public void verify_Download() throws Exception {
+	public void verify_Download() throws Exception {
 	
 	chrome_driver = BrowserFactory.startBrowser("chrome",Constants.FILE_DOWNLOAD_URL);
 	
@@ -32,7 +32,7 @@ public void verify_Download() throws Exception {
 
 		} catch (Exception ex) {
 
-System.out.println(ex.toString());
+			System.out.println(ex.toString());
 
 }
 

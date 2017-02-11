@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.guru99.Testcases.TC_004_PDF_Verify">
+      <class name="com.guru99.Testcases.TC_001_Verify_Login_Credentials">
         <methods>
-          <include name="verify_PDF_Content"/>
+          <include name="OpenNewTab"/>
         </methods>
-      </class> <!-- com.guru99.Testcases.TC_004_PDF_Verify -->
+      </class> <!-- com.guru99.Testcases.TC_001_Verify_Login_Credentials -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

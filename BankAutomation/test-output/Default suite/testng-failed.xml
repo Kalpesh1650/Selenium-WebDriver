@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru99.Testcases.TC_007_verify_File_Download">
+      <class name="com.guru99.Testcases.TC_003_verify_Add_New_Customer">
         <methods>
-          <include name="verify_Download"/>
+          <include name="add_New_Customer"/>
         </methods>
-      </class> <!-- com.guru99.Testcases.TC_007_verify_File_Download -->
+      </class> <!-- com.guru99.Testcases.TC_003_verify_Add_New_Customer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

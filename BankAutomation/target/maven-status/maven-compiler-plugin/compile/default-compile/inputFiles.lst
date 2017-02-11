@@ -3,7 +3,7 @@ C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\pages\LoginPageObj
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_005_iText_PDF_reader.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_001_Verify_Login_Credentials.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_006_verify_File_Upload_and_Download.java
-C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\com\guru99\utility\Constants.java
+C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\utility\Constants.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_007_verify_File_Download.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_002_verifyPDF_File.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC004_Multiple_Data_Set_From_Excel.java
@@ -11,3 +11,4 @@ C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_004_P
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\getExcelData.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\MavenBuild.java
 C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_003_verify_Add_New_Customer.java
+C:\Users\Kalp35h\.git\BankAutomation\src\test\java\com\guru99\Testcases\TC_008_Email_Functionality.java

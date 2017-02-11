@@ -52,15 +52,13 @@ xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd" >
     <version>3.11</version>
 </dependency>
 
-
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-scratchpad</artifactId>
     <version>3.11</version>
 </dependency>
 
-  
-  </dependencies>
+</dependencies>
   
   <build>
 		<!-- Source directory configuration -->
@@ -80,14 +78,18 @@ xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd" >
 			</plugin>
 			<!-- Compiler plugin configures the java version to be usedfor compiling 
 				the code -->
-			<!-- <plugin>
+			 <plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
+					
+					 <fork>true</fork>
+                <executable>C:\Program Files (x86)\Java\jdk1.8.0_101\bin\javac.exe</executable>
 				</configuration>
-			</plugin> -->
+				
+			</plugin> 
 		</plugins>
 	</build>
   

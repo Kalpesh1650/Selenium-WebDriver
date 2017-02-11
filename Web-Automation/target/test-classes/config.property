@@ -1,0 +1,2 @@
+IEDriverServer = "D:\\Languages\\Selenium\\IEDriverServer.exe"
+URL="http://test1.absofttrainings.com"

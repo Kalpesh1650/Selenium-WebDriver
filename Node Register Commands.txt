@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="E:\Education\Testing\Automation Testing\Selenium\Selenium Jar Files\chromedriver.exe" -jar "E:\Education\Testing\Automation Testing\Selenium\Selenium Jar Files\selenium-server-standalone-3.3.1.jar" -role node -hub http://192.168.43.99:4444/grid/register/ -browser "browserName=chrome,version=ANY,platform=WINDOWS,maxInstances=20" -maxSession 20
